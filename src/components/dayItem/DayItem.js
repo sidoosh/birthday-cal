@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   card: {
     display: "grid",
     padding: 10,
-    gridTemplateColumns: "repeat(26,auto)",
+    gridTemplateColumns: "repeat(22,auto)",
     // gridGap: ".5rem",
   },
   text: {
