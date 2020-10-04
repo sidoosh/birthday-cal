@@ -1,0 +1,64 @@
+.overlay-loader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+
+  .overlay-middle {
+    height: 100%;
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+
+  .overlay-loader .overlay-content {
+    height: 80%;
+    margin: 100px 10% 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .overlay-loader .overlay-content .logo-zoom {
+    -webkit-animation: pulse 1s ease-in-out infinite;
+    animation: pulse 1s ease-in-out infinite;
+    animation-fill-mode: forwards;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
