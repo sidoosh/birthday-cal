@@ -34,7 +34,7 @@ export default function DayItem(props) {
                 display: "inline-flex",
                 position: "relative",
                 height: "2.5rem",
-                width: "2.5rem",
+                width: "3rem",
                 // fontWeight: "bold",
                 // borderRadius: 4,
                 // margin: 0;
