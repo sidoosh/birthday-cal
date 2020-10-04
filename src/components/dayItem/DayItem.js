@@ -14,6 +14,7 @@ const useStyles = makeStyles({
   },
   text: {
     color: "#fff",
+    fontWeight: "500",
   },
 });
 
@@ -34,6 +35,7 @@ export default function DayItem(props) {
                 position: "relative",
                 height: "2.5rem",
                 width: "2.5rem",
+                // fontWeight: "bold",
                 // borderRadius: 4,
                 // margin: 0;
                 boxSizing: "border-box",
